@@ -1,6 +1,6 @@
 ///  <reference types="Cypress"  />
 
-describe("Test Contact Us form via Automation Test store", () =>{
+describe("Test Contact Us form via Automation Test store just for practicing", () =>{
     it("Should be able tp submit a scuccessfull submission via contact us form", () => {
     cy.visit("https://automationteststore.com/");
     // for following we have used the cypress app, by using the slect the tool to generate selectors for us
