@@ -4,13 +4,12 @@
   "description": "cypress Automation framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "triggerAllTests-headless": "npx cypress run",
-    "triggerAllTests-headless": "npx cypress run --headed",
-    "triggerAllTests-headless": "npx cypress run --browser chrome",
-    "triggerAllTests-headless": "npx cypress run --record --key 3b66c390-7ac6-4959-82c3-056003b1f345",
-    "triggerAllTests-headless": "npx cypress run --spec cypress/e2e/webdriver-uni/*",
-    "triggerAllTests-headless": "npx cypress run --spec cypress/e2e/automation-test-store"
+    "triggerAllTests-headed": "npx cypress run --headed",
+    "triggerAllTests-chrome": "npx cypress run --browser chrome",
+    "triggerAllTests-dashboard": "npx cypress run --record --key 3b66c390-7ac6-4959-82c3-056003b1f345",
+    "triggerAllTests-webdriveruni": "npx cypress run --spec cypress/e2e/webdriver-uni/*",
+    "triggerAllTests-autostore": "npx cypress run --spec cypress/e2e/automation-test-store"
   },
   "author": "Muhammad Ali",
   "license": "ISC",
